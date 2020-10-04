@@ -1,0 +1,66 @@
+
+.item{
+ width: 250px;
+ height: 345px;
+ display: inline-block;
+
+ padding: 0px 10px 10px 10px;
+ margin-bottom: 10px;
+ background-color: white;
+}
+
+h6{
+    display: inline-block;
+    color: rgb(95, 95, 95);
+    margin-left: 20px;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: rgba(105, 59, 32, 0.959);
+    padding-bottom: 1rem;
+}
+.quantityPicker, 
+.btn-add{
+    display: inline-block;
+}
+
+.btn-add{
+    margin-left: 3rem;
+}
+
+.quantity-value{
+    width: 20px;
+}
+
+/* images */
+.item img{
+    width: 200px;
+    height: 200px;
+}
+
+.minus{
+    margin: .4rem;
+}
+.add{
+    margin: .4rem;
+}
+
+/* Icon */
+.addCart-icon{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+/* prices */
+
+.price-title{
+    color: rgb(97, 93, 93);
+
+}
+.totalPrice-title{
+    color: rgba(197, 19, 19, 0.808);
+}

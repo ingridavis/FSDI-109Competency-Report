@@ -1,0 +1,13 @@
+
+
+.addedCartItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6rem;
+}
+h3{
+    font-style: italic;
+    color: rgba(105, 59, 32, 0.753);
+}

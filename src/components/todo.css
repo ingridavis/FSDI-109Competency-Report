@@ -1,0 +1,22 @@
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: rgb(83, 47, 23);
+    padding: 4rem;
+    border-top: 6px solid rgba(105, 59, 32, 0.397);
+    border-bottom: 6px solid rgba(105, 59, 32, 0.397);
+ 
+}
+.list-group-item{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(83, 47, 23);
+}
+
+.listItemCount{
+    font-size: 1.3rem;
+    color: rgba(105, 59, 32, 0.657);
+    font-style: italic;
+}

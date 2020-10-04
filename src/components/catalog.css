@@ -1,0 +1,59 @@
+
+
+/* global */
+
+.categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* category */
+
+.category{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.categoryactive-cat h6{
+   font-size: 30px;
+   color: rgb(82, 49, 31);
+   border-bottom: 1px solid rgba(82, 49, 31, 0.603);
+   padding-top: 1rem;
+}
+
+.category h6{
+    
+    font-size: 20px;
+    word-wrap: break-word;
+    font-weight: 600;
+    color: rgb(82, 49, 31);
+}
+.category h6:hover{
+    color: rgb(177, 66, 55);
+    font-size: 23px;
+}
+
+.category:hover{
+    cursor: pointer;
+}
+
+.products{
+    text-align: center;
+}
+
+
+/* catalog banner */ 
+.banner-image{
+    max-width: 100%;
+}
+
+.active-cat h6{
+    border: 1px solid rgb(44, 42, 42);
+}

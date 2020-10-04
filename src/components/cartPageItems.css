@@ -1,0 +1,41 @@
+.cartItem{
+    border: 2px solid  rgba(105, 59, 32, 0.397);
+    width: 30%;
+    margin: 1rem;
+}
+.cartItem:hover{
+    border: 3px solid green;
+}
+
+/* Product */
+.productImage{
+    width: 200px;
+    height: 200px;
+}
+.description{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: rgb(83, 47, 23);
+}
+.price{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    color: rgba(105, 59, 32, 0.781);
+}
+
+
+/* Remove Product & Trash icon */
+.fa-trash-o{
+    color: rgba(128, 25, 11, 0.863);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.removeItem{
+    display: inline;
+   
+}
+h5{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(128, 25, 11, 0.644);
+}
