@@ -27,8 +27,9 @@ class CartPageItems extends Component {
                    <label>Total: $ {this.props.info.quantity * this.props.info.product.price}</label>
                </div>
                <div className="removeItem">
-                   <h5>Remove</h5>
-                    <i onClick={this.removeProduct} className = "fa fa-trash-o remove " aria-hidden="true"></i>
+                        
+                        <i onClick={this.removeProduct} className = "fa fa-trash-o remove " aria-hidden="true"></i>
+                
                </div>
                     
             </div>

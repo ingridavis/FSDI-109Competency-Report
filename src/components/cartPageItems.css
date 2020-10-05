@@ -25,17 +25,14 @@
 
 
 /* Remove Product & Trash icon */
+.removeItem{
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
 .fa-trash-o{
     color: rgba(128, 25, 11, 0.863);
     font-size: 1.5rem;
-    padding-top: 2rem;
-    padding-left: 1rem;
 }
-.removeItem{
-    display: inline;
-   
-}
-h5{
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgba(128, 25, 11, 0.644);
-}
+
